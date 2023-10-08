@@ -5,11 +5,11 @@
   }
   
   .header a {
-    color: darkgreen;
+    color: orange;
   }
   
   .header a:hover {
-    background: lightgreen;
+    background: lightsalmon;
     color: white;
     cursor: pointer;
   }
