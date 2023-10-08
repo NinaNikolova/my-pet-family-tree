@@ -100,7 +100,7 @@ export const sample_pets = [
         name: 'Kити',
         gender: 'Женски',
         age: '6',
-        imageUrl: 'https://preview.redd.it/kitty-softpaws-from-puss-in-boots-the-last-wish-2022-v0-0hhnjvwfueba1.jpg?width=450&format=pjpg&auto=webp&s=b76884f1eb17d4d66815b23e4f90d630e766c9bf',
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSljXOe-l8spOAW--7JnsBAmgWOiIV44ZQniSTnyI_56JVxo11mgej8dkVk81s0KtlN6LQ&usqp=CAU',
         parents: [10],
         siblings: [10],
         children: [],
