@@ -32,7 +32,7 @@ export default function HomePage() {
         <>
             <Search />
             <Tags tags={tags} />
-            {pets.length === 0 && <NotFound />}
+            {pets.length === 0 && <NotFound linkText="Изчисти търсенето" />}
             <Tumbnails pets={pets} />
         </>
     );
