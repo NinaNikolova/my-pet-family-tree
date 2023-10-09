@@ -12,3 +12,4 @@ export const getAllByTag = async (tag) => {
     }
 
 };
+export const getById = async (petId) => sample_pets.find(item => item.id === petId);

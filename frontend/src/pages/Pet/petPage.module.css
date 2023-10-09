@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+  }
+  
+  .container > * {
+    min-width: 25rem;
+    max-width: 40rem;
+  }
+  
+  .image {
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 35rem;
+    margin: 1rem;
+  }
+  
+  .details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    border-radius: 3rem;
+    padding: 2rem;
+    color: orange;
+    margin-left: 1rem;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  
+  .color {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.7rem 0;
+  }
+  .color::before {
+    content: 'Цвят: ';
+    color: darkgrey;
+  }
+  
+  
+  
+  .age, .gender {
+    margin-top: 1rem;
+  }
+  
+  .age span {
+    padding: 0.6rem 2rem 0.6rem 0;
+    border-radius: 10rem;
+    color: green;
+  }
+  .age::before {
+    content: 'Възраст: ';
+    color: darkgrey;
+  }
+  .gender::before {
+    content: 'Пол: ';
+    color: darkgrey;
+  }
+
+  
+  .breed {
+    margin: 2rem 2rem 2rem 0;
+    color: green;
+  }
+  
+  .breed::before {
+    content: 'Порода: ';
+    color: darkgrey;
+  }
+  
+  

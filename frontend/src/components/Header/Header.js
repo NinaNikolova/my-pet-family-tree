@@ -28,7 +28,7 @@ export default function Header() {
                                 <div className={classes.menu}>
                                     <Link to="/profile">{user.name}</Link>
 
-                                    <a onClick={logout}>Излез от профила си</a>
+
                                 </div>
                             </li>
                         ) : (

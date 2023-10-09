@@ -7,7 +7,8 @@ export const sample_pets = [
         imageUrl: 'https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         breed: 'уличен превъзходен',
         colors: ['оранжев', 'бял'],
-        tags: 'Криси'
+        tags: 'Криси',
+
     },
     {
         id: '2',
@@ -17,7 +18,8 @@ export const sample_pets = [
         imageUrl: 'https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg',
         breed: 'уличен превъзходен',
         colors: ['бял', 'кафяв'],
-        tags: 'съпруга'
+        tags: 'съпруга',
+
     },
     {
         id: '3',
@@ -27,7 +29,8 @@ export const sample_pets = [
         imageUrl: 'https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026_640.jpg',
         breed: 'уличен превъзходен',
         colors: ['сив', 'бял'],
-        tags: 'майка'
+        tags: 'майка',
+
     },
     {
         id: '4',
@@ -36,8 +39,9 @@ export const sample_pets = [
         age: '4',
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Persialainen.jpg',
         breed: 'персийски',
-        colors: ['сив', 'риж'],
-        tags: 'баща'
+        colors: ['риж', 'кафяв'],
+        tags: 'баща',
+
     },
     {
         id: '5',
@@ -46,8 +50,9 @@ export const sample_pets = [
         age: '2',
         imageUrl: 'https://cats.com/wp-content/uploads/2022/03/gray-cats-compressed.jpg',
         breed: 'уличен превъзходен',
-        colors: ['сив'],
-        tags: 'сестра'
+        colors: ['сив', 'бял'],
+        tags: 'сестра',
+
     },
     {
         id: '6',
@@ -57,7 +62,8 @@ export const sample_pets = [
         imageUrl: 'https://cdn.britannica.com/25/172925-050-DC7E2298/black-cat-back.jpg',
         breed: 'уличен превъзходен',
         colors: ['черен'],
-        tags: 'брат'
+        tags: 'брат',
+
     },
     {
         id: '7',
@@ -67,17 +73,19 @@ export const sample_pets = [
         imageUrl: 'https://as1.ftcdn.net/v2/jpg/00/56/76/34/1000_F_56763459_evAbxddMaQcrFQJ47fBwzFTvakI8OMWs.jpg',
         breed: 'уличен превъзходен',
         colors: ['бял', 'риж'],
-        tags: 'дъщеря'
+        tags: 'дъщеря',
+
     },
     {
         id: '8',
         name: 'Топчо',
         gender: 'мъж',
         age: '1',
-        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSKJDcg7ARxTYUxcVn3liNYesAT3BPq4c9SasKmTvsWjaUOqQMv9OSJN527E7XwpLHCXY&usqp=CAU',
+        imageUrl: 'https://images.squarespace-cdn.com/content/v1/5c6494bbf4e5310e57b3de34/1623557067947-PN4CQHL8B84UEXR4K9CP/Capture.PNG',
         breed: 'уличен превъзходен',
         colors: ['риж', 'бял'],
-        tags: 'син'
+        tags: 'син',
+
     },
     {
         id: '9',
@@ -87,7 +95,8 @@ export const sample_pets = [
         imageUrl: 'https://imgsrv2.voi.id/RdeftsqtevUpbNTe6QgsmNPAjq_9UkVHQpHhj6E7vKo/auto/1280/853/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8xNjQ1MjkvMjAyMjA1MDYxMTUzLW1haW4uY3JvcHBlZF8xNjUxODEyODQ3LmpwZw.jpg',
         breed: 'уличен превъзходен',
         colors: ['риж'],
-        tags: 'дядо'
+        tags: 'дядо',
+
     },
     {
         id: '10',
@@ -97,7 +106,8 @@ export const sample_pets = [
         imageUrl: 'https://images.ctfassets.net/cnu0m8re1exe/qDQgxOUG5DNKlKH5TXsbo/813fa629fe33794c7ff439070fc31b89/shutterstock_603117302.jpg',
         breed: 'уличен превъзходен',
         colors: ['черен'],
-        tags: 'баба'
+        tags: 'баба',
+
     },
     {
         id: '11',
@@ -107,17 +117,19 @@ export const sample_pets = [
         imageUrl: 'https://betterwithcats.net/wp-content/uploads/2023/01/Orange-Cat-posing-for-photo.jpg',
         breed: 'уличен превъзходен',
         colors: ['риж'],
-        tags: 'прадядо'
+        tags: 'прадядо',
+
     },
     {
-        id: '10',
+        id: '12',
         name: 'Рая',
         gender: 'жена',
         age: '7',
         imageUrl: 'https://www.marthastewart.com/thmb/uWmRQZNEQv3Vs605P-xf9aEA1es=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/black-cat-kitchen-rug-getty-0921-2000-ca89c8832a634486b9866069272ecbb6.jpg',
         breed: 'уличен превъзходен',
         colors: ['черен', 'бял'],
-        tags: 'прабаба'
+        tags: 'прабаба',
+
     },
     {
         id: '13',

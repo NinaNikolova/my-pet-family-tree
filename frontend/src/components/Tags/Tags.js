@@ -11,7 +11,7 @@ export default function Tags({ tags, forPetPage }) {
             }}
         >
             {tags.map(tag => (
-                <Link key={tag.name} to={`/tag/${tag.name}`}>
+                <Link key={tag.name + tag.id} to={`/tag/${tag.name}`}>
                     {tag.name}
                     {!forPetPage && `(${tag.count})`}
                 </Link>
