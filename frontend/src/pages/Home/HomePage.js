@@ -4,6 +4,7 @@ import Tumbnails from '../../components/Tumbnails/Tumbnails';
 import { useParams } from 'react-router-dom';
 import Search from '../../components/Search/Search';
 import Tags from '../../components/Tags/Tags';
+import NotFound from '../../components/NotFound/NotFound';
 
 const initialState = { pets: [], tags: [] };
 
@@ -31,6 +32,7 @@ export default function HomePage() {
         <>
             <Search />
             <Tags tags={tags} />
+            {pets.length === 0 && <NotFound />}
             <Tumbnails pets={pets} />
         </>
     );

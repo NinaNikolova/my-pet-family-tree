@@ -23,7 +23,7 @@ export const sample_pets = [
     },
     {
         id: '3',
-        name: 'Сиса',
+        name: 'Лили',
         gender: 'жена',
         age: '4',
         imageUrl: 'https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026_640.jpg',
@@ -45,7 +45,7 @@ export const sample_pets = [
     },
     {
         id: '5',
-        name: 'Сивушака',
+        name: 'Сивушка',
         gender: 'жена',
         age: '2',
         imageUrl: 'https://cats.com/wp-content/uploads/2022/03/gray-cats-compressed.jpg',

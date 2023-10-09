@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import classes from './petPage.module.css';
 import { useParams } from 'react-router-dom';
 import { getById } from '../../services/petService';
+import NotFound from '../../components/NotFound/NotFound';
 
 
 export default function PetPage() {
@@ -13,7 +14,7 @@ export default function PetPage() {
     }, [id]);
     return (
         <>
-            {pet && <div className={classes.container} >
+            {!pet ? (<NotFound message="Котката не е намерена!" linkText="Върнете се към началната страница!" />) : <div className={classes.container} >
                 <img className={classes.image} src={pet.imageUrl} alt={pet.name} />
                 <div className={classes.details}>
                     <div className={classes.header} >
