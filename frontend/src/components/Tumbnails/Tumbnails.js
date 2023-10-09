@@ -16,7 +16,10 @@ export default function Tumbnails({ pets }) {
 
                         <div className={classes.content}>
                             <div className={classes.name}>{pet.name}</div>
+                            <div className={classes.name}>
 
+                                на {pet.age} г.
+                            </div>
                         </div>
                         <div className={classes.product_item_footer}>
                             <div className={classes.origins}>
@@ -24,9 +27,10 @@ export default function Tumbnails({ pets }) {
                                 <span >{pet.breed}</span>
 
                             </div>
-                            <div className={classes.cook_time}>
 
-                                Възраст:{pet.age}г.
+                            <div className={classes.tags}>
+
+                                {pet.tags !== 'Криси' ? pet.tags : ''}
                             </div>
                         </div>
 

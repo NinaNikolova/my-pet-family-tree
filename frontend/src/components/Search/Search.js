@@ -7,16 +7,21 @@ export default function Search() {
     const { searchTerm } = useParams();
 
     const search = async () => term ? navigate('/search/' + term) : navigate('/');
+
     return (
-        <div className={classes.container}>
-            <input
-                type="text"
-                placeholder="Търсете по име на бълг.език"
-                onChange={e => setTerm(e.target.value)}
-                onKeyUp={e => e.key === 'Enter' && search()}
-                value={term}
-            />
-            <button onClick={search}>Търси</button>
-        </div>
+        <>
+            <div className={classes.container}>
+                <input
+                    type="text"
+                    placeholder="Търсете по име на бълг.език"
+                    onChange={e => setTerm(e.target.value)}
+                    onKeyUp={e => e.key === 'Enter' && search()}
+                    value={term}
+                />
+                <button onClick={search}>Търси</button>
+
+            </div>
+
+        </>
     );
 }

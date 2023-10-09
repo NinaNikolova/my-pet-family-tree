@@ -28,28 +28,18 @@
   margin-top: 0.3rem;
   padding: 0.5rem 1rem;
   position: relative;
-  height: 7rem;
+   height: 7rem;
 }
 
-.favorite {
-  position: absolute;
-  top: 0.5rem;
-  right: 1rem;
-  font-size: 1.2rem;
-}
 
-.favorite.not {
-  color: grey;
-}
 
-.stars {
-  margin: 0.5rem 0;
-}
+
+
 
 .product_item_footer {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .origins span {

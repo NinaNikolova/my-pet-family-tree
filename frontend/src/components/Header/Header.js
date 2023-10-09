@@ -18,16 +18,16 @@ export default function Header() {
         <header className={classes.header}>
             <div className={classes.container}>
                 <Link to="/" className={classes.logo}>
-                    Семейство и род на моя домашен любимец
+                    Родът на моя котарак Криси
                 </Link>
                 <nav>
                     <ul>
                         {user ? (
                             <li className={classes.menu_container}>
-                                <Link to="/profile">{user.name}</Link>
+                                <Link to="/profile">Род и семейство</Link>
                                 <div className={classes.menu}>
                                     <Link to="/profile">{user.name}</Link>
-                                    <Link to="/orders">{pet.name}</Link>
+
                                     <a onClick={logout}>Излез от профила си</a>
                                 </div>
                             </li>
