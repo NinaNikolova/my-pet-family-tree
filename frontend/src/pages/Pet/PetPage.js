@@ -56,7 +56,7 @@ export default function PetPage() {
 
                     <div className={classes.siblings}>
                         {pet.siblings?.map(p => (
-                            <span key={p.id + new Date().getTime() + p.name}> <Link to={`/pet/${p.id}`}> {p.description.size},</Link></span>
+                            <span key={p.id + new Date().getTime() + p.name}> <Link to={`/pet/${p.id}`}> {p.name},</Link></span>
                         ))}
                     </div>
                     <div className={classes.children}>

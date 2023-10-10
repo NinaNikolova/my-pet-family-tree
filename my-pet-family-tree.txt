@@ -1,0 +1,5 @@
+Задачата е качена/решена в github. Моля, разгледайте решението и кода тук:
+https://github.com/NinaNikolova/my-pet-family-tree
+Проекът има уебсайт:
+https://my-pet-family-tree.vercel.app/
+
