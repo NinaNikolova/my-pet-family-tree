@@ -1,11 +1,11 @@
 # React project `Родът на моя котарак Криси`
 
 ## The idea and  a brief description
-Thе project's name is `Родът на моя котарак Криси`. Its putpose is to design a system to store information about my pet's family tree according to the condition of the task given here: [Speed IT Up University Edition](https://careers.nemetschek.bg/speeditup)
+Thе project's name is `Родът на моя котарак Криси`. Its putpose is to design a system to store information about my pet's family tree according to the condition of the task given here: ![Speed IT Up University Edition](https://careers.nemetschek.bg/speeditup)
 
 ## The project is uploaded:
 
-- you can find the project here: [Родът на моя котарак Криси]((https://my-pet-family-tree.vercel.app/)
+- you can find the project here: ![Родът на моя котарак Криси](https://my-pet-family-tree.vercel.app/)
 
 
 ## It contains the following pages:
