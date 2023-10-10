@@ -41,27 +41,25 @@
   }
 
   
-  .color {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0.7rem 0;
-  }
   .color::before {
     content: 'Цвят: ';
     color: darkgrey;
   }
   
+  .tags::after {
+    content: ' на Криси';
+    color: darkgrey;
+  }
   
-  
-  .age, .gender {
+  .age, .gender, .tags, .parents, .children, .siblings, .age, .breed, .color, .description {
     margin-top: 1rem;
+      color: green;
+      
+  }
+  .siblings a, .parents a, .children a, .description{
+    color: orange;
   }
   
-  .age span {
-    padding: 0.6rem 2rem 0.6rem 0;
-    border-radius: 10rem;
-    color: green;
-  }
   .age::before {
     content: 'Възраст: ';
     color: darkgrey;
@@ -71,15 +69,30 @@
     color: darkgrey;
   }
 
-  
-  .breed {
-    margin: 2rem 2rem 2rem 0;
-    color: green;
-  }
-  
+   
   .breed::before {
     content: 'Порода: ';
     color: darkgrey;
+  }
+  .parents::before {
+    content: 'Родители: ';
+    color: darkgrey;
+  }
+  .siblings::before {
+    content: 'Братя и сестри: ';
+    color: darkgrey;
+  }
+  .children::before {
+    content: 'Деца: ';
+    color: darkgrey;
+  }
+  .description::before {
+    content: 'Информация: ';
+    color: darkgrey;
+  }
+  .description{
+    margin-right: 1rem;
+    padding-right: 1rem;
   }
   
   

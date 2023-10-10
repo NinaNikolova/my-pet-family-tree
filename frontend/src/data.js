@@ -8,6 +8,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['оранжев', 'бял'],
         tags: 'Криси',
+        description: 'Моят домашен любимец е котарака Криси. Той е любвеобилен, игрив и закачлив. Винаги е готов да похапва.'
 
     },
     {
@@ -19,6 +20,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['бял', 'кафяв'],
         tags: 'съпруга',
+        description: 'Лори е съпруга/ гадже на моя домашен любимец- Криси. Той е много нежна, забавна и закачлива. Също много красива.'
 
     },
     {
@@ -30,6 +32,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['сив', 'бял'],
         tags: 'майка',
+        description: 'Лили е майка на моя домашен любимец- Криси. Тя е грижовна и добра котка.'
 
     },
     {
@@ -41,6 +44,7 @@ export const sample_pets = [
         breed: 'персийски',
         colors: ['риж', 'кафяв'],
         tags: 'баща',
+        description: 'Навчо е баща на моя домашен любимец- Криси. Той е надут и високомерен котарак.'
 
     },
     {
@@ -52,6 +56,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['сив', 'бял'],
         tags: 'сестра',
+        description: 'Сивушка е сестра на моя домашен любимец- Криси. Тя е закачлива и много гальовна.'
 
     },
     {
@@ -63,6 +68,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['черен'],
         tags: 'брат',
+        description: 'Черньо е брат на моя домашен любимец- Криси. Той е много игрив и нахален.'
 
     },
     {
@@ -74,7 +80,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['бял', 'риж'],
         tags: 'дъщеря',
-
+        description: 'Зуза е дъщеря на моя домашен любимец- Криси. Тя е сладка, миличка и обичлива'
     },
     {
         id: '8',
@@ -85,6 +91,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['риж', 'бял'],
         tags: 'син',
+        description: 'Топчо е син на моя домашен любимец- Криси. Той е дебеличък, пухкав и сладъчък.Обича да си играе, похапва и спи.'
 
     },
     {
@@ -96,6 +103,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['риж'],
         tags: 'дядо',
+        description: 'Рижко е дядо на моя домашен любимец- Криси. Той прилича на Котаракът в чизми.'
 
     },
     {
@@ -107,6 +115,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['черен'],
         tags: 'баба',
+        description: 'Кити е баба на моя домашен любимец- Криси. Тя прилича на Кити-меката лапичка от `Котаракът в чизми`.'
 
     },
     {
@@ -118,6 +127,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['риж'],
         tags: 'прадядо',
+        description: 'Боби е прадядо на моя домашен любимец- Криси. Той е дебел и мързелив.'
 
     },
     {
@@ -129,6 +139,7 @@ export const sample_pets = [
         breed: 'уличен превъзходен',
         colors: ['черен', 'бял'],
         tags: 'прабаба',
+        description: 'Рая е прабаба на моя домашен любимец- Криси. Тя е доста дива, игрива и непредсказуема.'
 
     },
     {
@@ -142,9 +153,58 @@ export const sample_pets = [
         children: [],
         breed: 'неизвестен',
         colors: ['неизвестен'],
-        tags: 'неизвестен'
+        tags: 'неизвестен',
+        description: ''
     },
 ];
+sample_pets[0].parents = [sample_pets[2], sample_pets[3]];
+sample_pets[0].siblings = [sample_pets[4], sample_pets[5]];
+sample_pets[0].children = [sample_pets[6], sample_pets[7]];
+
+sample_pets[1].parents = [sample_pets[12]];
+sample_pets[1].siblings = [sample_pets[12]];
+sample_pets[1].children = [sample_pets[6], sample_pets[7]];
+
+sample_pets[2].parents = [sample_pets[12]];
+sample_pets[2].siblings = [sample_pets[12]];
+sample_pets[2].children = [sample_pets[0], sample_pets[4], sample_pets[5]];
+
+sample_pets[3].parents = [sample_pets[8], sample_pets[9]];
+sample_pets[3].siblings = [sample_pets[12]];
+sample_pets[3].children = [sample_pets[0], sample_pets[4], sample_pets[5]];
+
+sample_pets[4].parents = [sample_pets[2], sample_pets[3]];
+sample_pets[4].siblings = [sample_pets[0], sample_pets[5]];
+sample_pets[4].children = [sample_pets[12]];
+
+sample_pets[5].parents = [sample_pets[2], sample_pets[3]];
+sample_pets[5].siblings = [sample_pets[4], sample_pets[5]];
+sample_pets[5].children = [sample_pets[12]];
+
+sample_pets[6].parents = [sample_pets[0], sample_pets[1]];
+sample_pets[6].siblings = [sample_pets[7]];
+sample_pets[6].children = [sample_pets[12]];
+
+sample_pets[7].parents = [sample_pets[0], sample_pets[1]];
+sample_pets[7].siblings = [sample_pets[6]];
+sample_pets[7].children = [sample_pets[12]];
+
+sample_pets[8].parents = [sample_pets[10], sample_pets[11]];
+sample_pets[8].siblings = [sample_pets[12]];
+sample_pets[8].children = [sample_pets[3]];
+
+sample_pets[9].parents = [sample_pets[12]];
+sample_pets[9].siblings = [sample_pets[12]];
+sample_pets[9].children = [sample_pets[3]];
+
+sample_pets[10].parents = [sample_pets[12]];
+sample_pets[10].siblings = [sample_pets[12]];
+sample_pets[10].children = [sample_pets[8]];
+
+sample_pets[11].parents = [sample_pets[12]];
+sample_pets[11].siblings = [sample_pets[12]];
+sample_pets[11].children = [sample_pets[8]];
+
 export const sample_tags = [
     { name: 'всички', count: 12 },
     { name: 'Криси', count: 1 },

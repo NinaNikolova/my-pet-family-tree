@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import classes from './petPage.module.css';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { getById } from '../../services/petService';
 import NotFound from '../../components/NotFound/NotFound';
 
@@ -21,7 +21,7 @@ export default function PetPage() {
                         <span className={classes.name}>{pet.name}</span>
                     </div>
                     <div className={classes.tags}>
-                        {pet.tags === 'Криси' ? '' : pet.tags}
+                        {pet.tags === 'Криси' ? 'Профил' : pet.tags}
                     </div>
 
 
@@ -47,8 +47,29 @@ export default function PetPage() {
                     <div className={classes.breed}>
                         {pet.breed}
                     </div>
+
+                    <div className={classes.parents}>
+                        {pet.parents?.map(p => (
+                            <span key={p.id + p.name + + p.age + new Date().getTime()} ><Link to={`/pet/${p.id}`}> {p.name},</Link></span>
+                        ))}
+                    </div>
+
+                    <div className={classes.siblings}>
+                        {pet.siblings?.map(p => (
+                            <span key={p.id + new Date().getTime() + p.name}> <Link to={`/pet/${p.id}`}> {p.description.size},</Link></span>
+                        ))}
+                    </div>
+                    <div className={classes.children}>
+                        {pet.children?.map(p => (
+                            <span key={p.id + p.age + new Date().getTime()}> <Link to={`/pet/${p.id}`}>{p.name},</Link></span>
+                        ))}
+                    </div>
+
+                    <div className={classes.description}>
+                        {pet.description}
+                    </div>
                 </div>
-            </div>}
+            </div >}
         </>
     );
 }

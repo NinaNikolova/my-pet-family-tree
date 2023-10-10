@@ -1,9 +1,12 @@
 .header {
-    background: white;
+  
     padding: 0;
     border-bottom: 3px solid orange;
-  }
+ 
+
+}
   
+
   .header a {
     color: orange;
   }
