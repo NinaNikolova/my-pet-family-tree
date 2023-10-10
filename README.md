@@ -33,4 +33,3 @@ In the project I have tried to use React, React-router-dom with  concepts like: 
 
 ## Database - The file - data.js simulates database or model.
 
-## REST - The file - data.js simulates database.
