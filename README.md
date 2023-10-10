@@ -11,11 +11,11 @@ Thе project's name is `Родът на моя котарак Криси`. Its p
 ## It contains the following pages:
 
 1. Home page- images -links of all pets and search menu
-  ![Home page](https://my-pet-family-tree.vercel.app/)
+  ![image](https://my-pet-family-tree.vercel.app/)
 2. Pet page - for every cat - member of Krisi's family
-  ![Pet page](https://my-pet-family-tree.vercel.app/pet/1)
+  ![image](https://my-pet-family-tree.vercel.app/pet/1)
 3. Not Found Page
-  ![Not Found Page](https://my-pet-family-tree.vercel.app/1111)
+  ![image](https://my-pet-family-tree.vercel.app/1111)
 ## Available Scripts
 If you want to have the project for yourself in directory `frontend`, you can run:
 ### `npm i`
