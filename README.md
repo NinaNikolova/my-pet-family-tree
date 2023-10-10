@@ -5,17 +5,17 @@ Thе project's name is `Родът на моя котарак Криси`. Its p
 
 ## The project is uploaded:
 
-- you can find the project here: ![Родът на моя котарак Криси](https://my-pet-family-tree.vercel.app/)
+- you can find the project here: ![Родът на моя котарак Криси](https://my-pet-family-tree.vercel.app)
 
 
 ## It contains the following pages:
 
 1. Home page- images -links of all pets and search menu
-  ![image](https://my-pet-family-tree.vercel.app/)
+  ![Home page](https://my-pet-family-tree.vercel.app/)
 2. Pet page - for every cat - member of Krisi's family
-  ![image](https://my-pet-family-tree.vercel.app/pet/1)
+  ![Pet page](https://my-pet-family-tree.vercel.app/pet/1)
 3. Not Found Page
-  ![image](https://my-pet-family-tree.vercel.app/1111)
+  ![Not Found page](https://my-pet-family-tree.vercel.app/1111)
 ## Available Scripts
 If you want to have the project for yourself in directory `frontend`, you can run:
 ### `npm i`
