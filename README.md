@@ -1,21 +1,21 @@
 # React project `Родът на моя котарак Криси`
 
 ## The idea and  a brief description
-Thе project's name is `Родът на моя котарак Криси`. Its putpose is to design a system to store information about my pet's family tree according to the condition of the task given here: ![Speed IT Up University Edition](https://careers.nemetschek.bg/speeditup)
+Thе project's name is `Родът на моя котарак Криси`. Its putpose is to design a system to store information about my pet's family tree according to the condition of the task given here: https://careers.nemetschek.bg/speeditup
 
 ## The project is uploaded:
 
-- you can find the project here: ![Родът на моя котарак Криси](https://my-pet-family-tree.vercel.app)
+- you can find the project here: https://my-pet-family-tree.vercel.app
 
 
 ## It contains the following pages:
 
 1. Home page- images -links of all pets and search menu
-  ![Home page](https://my-pet-family-tree.vercel.app/)
+  https://my-pet-family-tree.vercel.app
 2. Pet page - for every cat - member of Krisi's family
-  ![Pet page](https://my-pet-family-tree.vercel.app/pet/1)
+ https://my-pet-family-tree.vercel.app/pet/1
 3. Not Found Page
-  ![Not Found page](https://my-pet-family-tree.vercel.app/1111)
+ https://my-pet-family-tree.vercel.app/1111
 ## Available Scripts
 If you want to have the project for yourself in directory `frontend`, you can run:
 ### `npm i`
