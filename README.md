@@ -3,11 +3,6 @@
 ## The idea and  a brief description
 Thе project's name is `Родът на моя котарак Криси`. Its putpose is to design a system to store information about my pet's family tree according to the condition of the task given here: https://careers.nemetschek.bg/speeditup
 
-## The project is uploaded:
-
-- you can find the project here: https://my-pet-family-tree.vercel.app
-
-
 ## It contains the following pages:
 
 1. Home page- images -links of all pets and search menu
